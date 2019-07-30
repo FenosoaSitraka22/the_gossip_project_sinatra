@@ -8,11 +8,11 @@
     <a href="/gossips/new/">créer un nouveau gossip</a>
 <% gossips.each_with_index do |gossip,ac| %>
         <p>
-          <%= gossip.author   %> <%=ac%> <br/>
-          <%= gossip.content %>
-        </p>
+            <%=gossip.author%> <%=ac+1%><br/>
+            <%=gossip.content%>
+         </p>
       <% end %>
-<%=  %>
+
   </body>
 </html>
 
